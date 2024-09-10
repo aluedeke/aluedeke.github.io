@@ -1,0 +1,23 @@
+---
+---
+
+@import 'main
+{%- if jekyll.environment == ' production
+  ' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+#avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Center the text in the sidebar */
+#sidebar .site-title,
+#sidebar .site-subtitle {
+  text-align: center;
+}
